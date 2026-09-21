@@ -5,7 +5,7 @@ import { CheckIcon, GoogleIcon } from "@/components/sites/login.yahoo.com/shared
 
 export function LoginCard() {
   return (
-    <div className="w-full md:max-w-[360px] md:bg-white md:rounded-lg md:shadow-[0_2px_4px_0_rgba(0,0,0,0.08),0_4px_12px_0_rgba(0,0,0,0.08)] md:p-8 pt-4">
+    <div className="w-full md:w-[360px] md:bg-white md:rounded-[16px] md:shadow-[0_2px_4px_0_rgba(0,0,0,0.08),0_4px_12px_0_rgba(0,0,0,0.08)] md:p-8 pt-4">
       <h1 className="text-[#26282a] text-xl font-bold mb-6 text-left">
         Sign in to Yahoo
       </h1>
@@ -40,7 +40,7 @@ export function LoginCard() {
               Stay signed in
             </span>
           </label>
-          <Link href="#" className="text-[#0f69ff] text-sm font-semibold hover:underline">
+          <Link href="#" className="text-[#7e1fff] text-sm font-semibold hover:underline">
             Forgot username
           </Link>
         </div>
@@ -70,7 +70,7 @@ export function LoginCard() {
 
         <Link
           href="#"
-          className="w-full flex items-center justify-center text-[#0f69ff] font-semibold transition-colors duration-200 hover:underline"
+          className="w-full flex items-center justify-center text-[#7e1fff] font-semibold transition-colors duration-200 hover:underline"
         >
           Create account
         </Link>
